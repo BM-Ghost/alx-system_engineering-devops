@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1 | sort -df | sed -e 's#^#./#' -e 's#$#/#' | tr '\n' ', ' | sed 's/,$/\n/'
+ls -A1 -d * | sort -df | sed 's/$/,\ /' | tr -d '\n' | sed 's/,$/\n/'

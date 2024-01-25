@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$WATER$STIR" | tr -d 'waterstir.' | tr -d 'ti' | tr 'ew' '01' | tr 'ab' '012' | tr 'c' '3' | tr 'lh' '45' | tr 'o' '6' | tr 's' '7' | tr 't' '8' | tr 'r' '9'
+echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')

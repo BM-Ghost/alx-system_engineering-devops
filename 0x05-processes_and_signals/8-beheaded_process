@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A scirpt that kills the 7-highlander task using pkill
+
+pkill -9 -f "7-highlander"
+

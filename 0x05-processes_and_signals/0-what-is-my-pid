@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A scirpt that display its own PID
+
+echo "$$"

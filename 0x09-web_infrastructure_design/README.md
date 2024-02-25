@@ -11,9 +11,7 @@ The objective here is to devise a straightforward web infrastructure to host the
 
 ### 0.1 Design Overview and Rationale
 
-[0. Basic Web Stack](./0-basic_web_stack): This document includes a link to the design image, fulfilling the specified criteria.
-
-[Design Explanation](./0-Basic_Web_Stack.md): This section elucidates the infrastructure design and highlights any pertinent issues.
+[0. Basic Web Stack](https://github.com/BM-Ghost/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/0-simple_web_stack): This document includes a link to the design image, fulfilling the specified criteria.
 
 ## 1. Distributed Web Infrastructure
 
@@ -27,9 +25,7 @@ This upgraded infrastructure employs three servers to host the website "www.foob
 
 ### 1.1 Design Overview and Rationale
 
-[1. Distributed Web Infrastructure](./1-distributed_web_infrastructure): This file provides a link to the design image, as per requirements.
-
-[Design Explanation](./1-distributed_web_infrastructure.md): It delineates the infrastructure design and discusses any identified issues.
+[1. Distributed Web Infrastructure](https://github.com/BM-Ghost/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure): This file provides a link to the design image, as per requirements.
 
 ## 2. Secure and Monitored Web Infrastructure
 
@@ -41,9 +37,7 @@ To bolster security, privacy, and monitoring capabilities, several supplementary
 
 ### 2.1 Design Overview and Rationale
 
-[2. Secure and Monitored Web Infrastructure](./2-secure_and_monitored_web_infrastructure): This document contains a link to the design image, meeting the specified criteria.
-
-[Design Explanation](./2-secure_and_monitored_web_infrastructure.md): This section elaborates on the infrastructure design and addresses any encountered issues.
+[2. Secure and Monitored Web Infrastructure](https://github.com/BM-Ghost/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure): This document contains a link to the design image, meeting the specified criteria.
 
 ## 3. Scaling Up
 
@@ -55,6 +49,4 @@ This revised design incorporates significant modifications to the web infrastruc
 
 ### 3.1 Design Overview and Rationale
 
-[3. Scaling Up](./3-scaling_up): This file features a link to the design image, fulfilling the specified requirements.
-
-[Design Explanation](./3-scaling_up.md): This section provides insight into the infrastructure design and addresses any identified issues.
+[3. Scaling Up](https://github.com/BM-Ghost/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/3-scale_up): This file features a link to the design image, fulfilling the specified requirements.

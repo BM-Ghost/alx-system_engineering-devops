@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
-# Install Nginx on the server and configure it to redirect "/redirect_me" to another page
+# configures Nginx server so that /redirect_me is redirecting to another page
+# The redirection must be a “301 Moved Permanently”
 
-sudo apt update -y
-sudo apt install nginx -y
-echo "Hello World!" | sudo tee /var/www/html/index.html
-sudo sed -i '/^server {/a \    location \/redirect_me {\n        return 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4;\n    }' /etc/nginx/sites-available/default
-# Restart Nginx service
-sudo service nginx restart
+sudo apt-get -y install nginx
+sudo bash -c 'echo "Hello World!" > /var/www/html/index.nginx-debian.html'
+
+redirect="\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+
+sudo sed -i "53s|.*|$redirect|" /etc/nginx/sites-enabled/default
+
+sudo /etc/init.d/nginx restart

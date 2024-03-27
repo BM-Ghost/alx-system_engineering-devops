@@ -18,4 +18,3 @@ cd /var/www/html
 if [ ! -f index.html ]; then
     echo "Hello Holberton" > index.html
 fi
-

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Script to fix Apache configuration and serve "Hello Holberton" page
 
+# Add ServerName localhost to Apache configuration
+echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
 # Start Apache if not already running
 service apache2 status > /dev/null 2>&1
 if [ $? -ne 0 ]; then

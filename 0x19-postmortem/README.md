@@ -35,6 +35,6 @@ This outage stemmed from an application error rather than a web server malfuncti
 * Advocate thorough testing before deployment to catch and rectify such errors preemptively.
 * Implement status monitoring tools like [UptimeRobot](https://uptimerobot.com/) for prompt outage alerts.
 
-In response to this incident, a Puppet manifest named [0-strace_is_your_friend.pp](https://github.com/bdbaraban/holberton-system_engineering-devops/blob/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp) was created to automate fixing identical errors in the future. The manifest replaces any `phpp` extensions in `/var/www/html/wp-settings.php` with `php`.
+In response to this incident, a Puppet manifest named [0-strace_is_your_friend.pp](https://github.com/BM-Ghost/alx-system_engineering-devops/tree/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp) was created to automate fixing identical errors in the future. The manifest replaces any `phpp` extensions in `/var/www/html/wp-settings.php` with `php`.
 
 But let's face it, as programmers, we never make errors! 😉
